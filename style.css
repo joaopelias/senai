@@ -1,0 +1,178 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700&display=swap');
+
+
+*{
+   margin: 0%;
+   padding: 0%;
+   list-style: none;
+   text-decoration: none;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.background-goku{
+ background: rgba(3,0,12,0.7) 
+ url(image/2750127-dragon-ball-super-4k-hd-wallpaper-download-free.jpg);
+ background-blend-mode: darken;
+ background-position: center;
+ background-size: cover;
+ background-repeat: no-repeat;
+ width: 100%;
+ height: 100vh;
+ max-width: 100%;
+
+}
+
+.logo img{
+    width: 85px;
+    height: auto;
+}
+
+nav{
+display: flex;
+gap: 40px;
+}
+
+nav a{
+    color: white;
+    font-weight: 600;
+}
+
+header{
+display: flex;
+justify-content: center;
+padding-top: 2rem;
+align-items: center;
+text-align: center;
+gap: 16rem;
+}
+
+.button-enter{
+display: flex;
+gap: 2rem;
+align-items: center;
+}
+
+.button-enter button{
+background-color: rgb(190, 0, 0);
+padding: 10px;
+color: white;
+border-radius: 5px;
+border: none;
+cursor: pointer;
+}
+
+.goku-meio-kkk{
+    margin-left: 10%;
+    margin-top: 8%;
+    max-width: 100%;
+
+}
+
+
+.button-enter a{
+    color: white;
+    font-size: 18px;
+}
+
+.goku-meio h1{
+    color: white;
+    font-size: 60px;
+}
+
+.goku-meio p{
+    color: white;
+    font-size: 16px;
+    font-style: bold;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+.elias{
+    background-color: rgb(214, 214, 0);
+    padding: 10px;
+    color: #ffffff;
+    border-radius: 6px;
+    border: none;
+    margin-top: 2rem;
+    cursor: pointer;
+    width: 100px;
+}
+
+.DBZg {
+    display: flex;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.DBZg img{
+    width: 100;
+    height: 140px;
+}
+
+#neydbz-jp p{
+    font-size: 18px;
+    color: black;
+    line-height: 16px;
+}
+
+.neydbz {
+    background: rgba(3,0,12,0.7) url(image/wp4905313.jpg);
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: 80vh;
+}
+
+#neydbz-jp {
+    position: absolute;
+    background-color: #ffffff;
+    width: 600px;
+    padding: 50px;
+    top: 150%;
+    left: 28%;
+}
+
+#neydbz-jp h1 {
+    color: #ffffff;
+    margin-bottom: 14px;
+    border-left: solid; color: rgb(193, 113, 0);
+}
+
+#neydbz-jp a { 
+    color: rgb(199, 0, 0);
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.p-dbz h2{
+    font-size: 28px;
+    font-weight: 600;
+    color: black;
+}
+
+.p-dbz img{
+    width: 350px;
+    height: auto;
+
+
+}
+
+.perso-dbz {
+    display: flex;
+    padding: 6rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 1rem;
+}
+
+.Perso h1 {
+
+
+
+}
