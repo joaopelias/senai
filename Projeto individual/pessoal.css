@@ -1,0 +1,139 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: antiquewhite;
+}
+
+
+.background-capa {
+    background: rgba(6, 0, 6, 0.8)
+    url(imagens/fundocinza.jpg);
+    background-blend-mode: darken;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 90vh;
+    max-width: 100%;
+}
+
+.logo-senai {
+    display: flex;
+    justify-content: center;
+    padding-top: 4rem;
+    height: 120px;
+    width: auto;
+}
+
+
+.capa {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}   
+
+.texto-capa h1{
+    font-size: 70px;
+}
+
+.texto-capa{
+    padding-top: 8rem;
+}
+
+.sobremim {
+    background: rgba(6, 0, 6, 0.8)
+    url(imagens/fundo.jpg);
+    background-blend-mode: darken;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: end;
+    gap: 10%;
+    padding-right: 4rem;
+}
+
+.minhafoto img{
+    width: 350px;
+    padding-top: 1rem;
+}
+
+.portifolio {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 4rem;
+}
+
+.item{
+    text-align: center;
+}
+
+.grupo{
+    display: flex;
+    justify-content:space-around ;
+    align-items: end;
+}
+
+.grupo {
+    background: rgba(6, 0, 6, 0.8)
+    url(imagens/fundo.jpg);
+    background-blend-mode: darken;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items:center;
+    text-align: left;
+    gap: 4%;
+}
+
+.logo-play img{
+    width: 450px;
+    height: auto;
+}
+
+.texto-todosgrupos{
+    color: rgb(255, 255, 255);
+    padding-top: 2rem;
+    padding-left: 2rem;
+}
+
+.todosgrupos {
+    background-color: #000000;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grupos { 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 4rem;
+    gap: 10px;
+}
+
+.grupo1 img{
+    width: 300px;
+}
