@@ -68,6 +68,25 @@ button{
 
 
 
+.anuncio{
+    background: rgb(255,0,198);
+    background: radial-gradient(circle, rgba(255,0,198,0.8632703081232493) 0%, rgba(0,0,0,1) 91%);
+    height: 12vh;
+    width: 100%;
+    color: #ffffff;
+}
+
+.texto-anuncio{
+    display: block;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.texto-anuncio p{
+    margin-top: 5px;
+}
+
+
 
 .playO h2{
     color: #ffffff;
@@ -99,6 +118,7 @@ button{
 }
 
 
+
 .tela-catalogo{
     height: 95vh;
     width: 100%;
@@ -111,7 +131,7 @@ button{
     border-radius: 35px;
     overflow: hidden;
     position: absolute;
-    top:234%;
+    top:240%;
     left:50%;
     transform: translate( -50%,-50%);
 }
@@ -122,12 +142,13 @@ button{
     font-size: 20px;
     text-align: center;
     justify-content: center;
-    padding-top: 2rem;
+    padding-top: 1rem;
 }
 
-.texto p{
+.texto h3{
     padding-top: 1rem;
     color: #ffffff;
+    font-size: 20px;
 }
 
 .navegation {
@@ -204,7 +225,7 @@ input{
 
 .planos h3{
     padding-left: 4rem;
-    padding-top: 7rem;
+    padding-top: 5rem;
     font-size: 20px;
     color: #b405ff;
     text-align: center; 
@@ -212,7 +233,7 @@ input{
 
 .planos h2{
     padding-left: 4rem;
-    padding-top: 35px;
+    padding-top: 25px;
     font-size: 30px;
     text-align: center;
 }
@@ -293,9 +314,6 @@ input{
     display: flex;
     align-items: center;
 }
-
-
-
 
 
 
